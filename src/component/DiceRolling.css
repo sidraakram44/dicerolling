@@ -6,6 +6,21 @@
     box-shadow: 0 0 5px gray;
     border-radius: 5px;
   }
+  .hadingwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading{
+    border: 2px solid green;
+    width: 250px;
+    height: 40px;
+    padding-top: 15px;
+    color: aqua;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top right,green,blue,red);
+  }
   
   .dice-container button {
     padding: 1rem 2rem;
